@@ -3,74 +3,42 @@
     "inner-ip-ver": 4,
     "hosts": [
         {
-            "name": "dgx-google-07",
+            "name": "doca-vr-065",
             "nics": [
                 {
-                    "name": "enp64s0np0",
-                    "mac": "58:a2:e1:a9:b6:7e",
-                    "ip": "fe80::5aa2:e1ff:fea9:b67e",
+                    "name": "ens5np0",
+                    "mac": "94:6d:ae:a9:b0:b0",
+                    "ip": "fe80::966d:aeff:fea9:b0b0",
                     "pci": "00:00.0",
                     "vnics": [
                         {
                             "index": 0,
-                            "name": "enp64s0v0",
-                            "mac": "96:10:04:a6:88:55",
+                            "name": "ens5v0",
+                            "mac": "ee:83:cf:77:8d:81",
                             "pci": "00:00.0",
-                            "ip": "192.168.64.107",
+                            "ip": "60.0.0.65",
                             "vnid-out": 647
-                        }
-                    ]
-                },
-                {
-                    "name": "enp24s0np0",
-                    "mac": "58:a2:e1:a9:b6:76",
-                    "ip": "fe80::5aa2:e1ff:fea9:b676",
-                    "pci": "00:00.0",
-                    "vnics": [
-                        {
-                            "index": 0,
-                            "name": "enp24s0v0",
-                            "mac": "da:9c:47:16:95:6f",
-                            "pci": "00:00.0",
-                            "ip": "192.168.24.107",
-                            "vnid-out": 247
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "dgx-google-08",
+            "name": "doca-vr-066",
             "nics": [
                 {
                     "name": "enp64s0np0",
-                    "mac": "58:a2:e1:bb:df:12",
-                    "ip": "fe80::5aa2:e1ff:febb:df12",
+                    "mac": "94:6d:ae:af:3f:cc",
+                    "ip": "fe80::966d:aeff:feaf:3fcc",
                     "pci": "00:00.0",
                     "vnics": [
                         {
                             "index": 0,
-                            "name": "enp64s0v0",
-                            "mac": "ea:39:f6:01:e2:2c",
+                            "name": "ens5v0",
+                            "mac": "c2:1e:b8:93:4b:d4",
                             "pci": "00:00.0",
-                            "ip": "192.168.64.108",
+                            "ip": "60.0.0.66",
                             "vnid-out": 648
-                        }
-                    ]
-                },
-                {
-                    "name": "enp24s0np0",
-                    "mac": "58:a2:e1:bb:df:0a",
-                    "ip": "fe80::5aa2:e1ff:febb:df0a",
-                    "pci": "00:00.0",
-                    "vnics": [
-                        {
-                            "index": 0,
-                            "name": "enp24s0v0",
-                            "mac": "46:f6:cc:4b:87:72",
-                            "pci": "00:00.0",
-                            "ip": "192.168.24.108",
-                            "vnid-out": 248
                         }
                     ]
                 }
